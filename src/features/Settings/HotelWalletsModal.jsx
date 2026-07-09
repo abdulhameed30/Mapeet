@@ -48,7 +48,7 @@ function HotelWalletsModal({ onClose, onModalClick }) {
               >
                 <div className="flex items-center space-x-5">
                   <img
-                    src={`http://192.168.124.2:8000/upload/wallets/${wallet.wallet_image}`}
+                    src={`http://192.168.195.2:8000/upload/wallets/${wallet.wallet_image}`}
                     alt=""
                     className="w-10 h-10 rounded"
                   />

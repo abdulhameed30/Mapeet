@@ -43,7 +43,7 @@ export function useRoomImage(room_id) {
   };
 
   const onEdit = (image) => {
-    setDisplayImage(`http://192.168.124.2:8000/upload/rooms/${image.image_name}`);
+    setDisplayImage(`http://192.168.195.2:8000/upload/rooms/${image.image_name}`);
     setImageId(image.room_image_id)
     setShowEditModal(true);
   };

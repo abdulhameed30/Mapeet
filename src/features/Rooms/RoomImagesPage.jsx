@@ -47,7 +47,7 @@ function RoomImagesPage() {
             return (
               <div className="relative w-70 h-70" key={index}>
                 <img
-                  src={`http://192.168.124.2:8000/upload/rooms/${image.image_name}`}
+                  src={`http://192.168.195.2:8000/upload/rooms/${image.image_name}`}
                   alt="image"
                   className="w-full h-full object-cover rounded-lg"
                 />

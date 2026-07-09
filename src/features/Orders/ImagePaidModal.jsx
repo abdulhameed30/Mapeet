@@ -30,7 +30,7 @@ function ImagePaidModal({onClose, onModalClick, imageLink}) {
               >
                 {imageLink != null ? (
                   <img
-                    src={`http://192.168.124.2:8000/upload/orders/${imageLink}`}
+                    src={`http://192.168.195.2:8000/upload/orders/${imageLink}`}
                     alt="preview"
                     className="w-full h-full object-cover"
                   />

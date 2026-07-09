@@ -79,7 +79,7 @@ export default function useRoom() {
     setRoomForm({ ...room, room_hotel_id: hotelData.hotel_id });
     console.log(room.room_image);
     setDisplayImage(
-      `http://192.168.124.2:8000/upload/rooms/${room.room_image}`,
+      `http://192.168.195.2:8000/upload/rooms/${room.room_image}`,
     );
     setShowUpdateModal(true);
   };

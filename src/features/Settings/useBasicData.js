@@ -31,10 +31,10 @@ export default function useBasicData() {
       );
       setHotel(response.data.hotel);
       setDisplayImage(
-        `http://192.168.124.2:8000/upload/hotels/${response.data.hotel.hotel_image}`,
+        `http://192.168.195.2:8000/upload/hotels/${response.data.hotel.hotel_image}`,
       );
       setImage(
-        `http://192.168.124.2:8000/upload/hotels/${response.data.hotel.hotel_image}`,
+        `http://192.168.195.2:8000/upload/hotels/${response.data.hotel.hotel_image}`,
       );
       setCities(response.data.cities);
     } catch (error) {
